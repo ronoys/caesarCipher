@@ -1,7 +1,7 @@
 def caesar(rot,text,encrypted): # Defines procedure
      
     alphabet = list('abcdefghijklmnopqrstuvwxyz') # creates list of characters
-    uppercase = list('ABCDEFGHIJKLMNOPQRSTUBWXYZ') # creates list of lowercase characters
+    uppercase = list('ABCDEFGHIJKLMNOPQRSTUBWXYZ') # creates list of uppercase characters
     new_list = list(text) # divides text input to characters
     print_list = [] # creates list to print
 
