@@ -21,7 +21,6 @@ def caesar(rot,text,encrypted): # Defines procedure
     str1 = ''.join(print_list) # convert the shifted list to a string
     print ("The string " + str(text) + " shifted by " + str(rot) + " results in the string " + (str1)) # print results
     
-#caesar(5,"hello",True)
 
 def main():
     
